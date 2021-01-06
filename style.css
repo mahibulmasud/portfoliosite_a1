@@ -1,0 +1,150 @@
+
+*{margin:0;padding: 0px;outline: 0;}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section1{
+    height: 50px;;
+}
+section{
+    height: 500px;
+}
+.menu {
+    text-align: end;
+    width: 90%;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.menu p{
+   display: inline;
+   margin:5px;
+   
+}
+.leftpart-section2{
+    float: left;
+    width: 50%;
+}
+.leftpart-section2 h1{
+    font-size: 40px;
+    margin-left: 20%;
+}
+.ht{
+    color:#FA7162;
+}
+.leftpart-section2 p {
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+.link-button {
+    text-decoration: none;
+    background-color: #F96D61;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 82px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.rightpart-section2{
+    float: left;
+    width: 50%;
+}
+.rightpart-section2 img {
+    width: 65%;
+    margin-top: 44px;
+}
+
+.rightpart-section3{
+    float: left;
+    width: 45%;
+}
+.rightpart-section3 img {
+    width: 78%;
+    margin-left: 20%;
+}
+.leftpart-section3 p {
+    /* margin-bottom: 50px; */
+    text-align: center;
+    /* margin-left: 25px; */
+    padding: 14px 1px 60px 17px;
+}
+.leftpart-section3 h1 {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 50px;
+}
+
+.section4div{
+    width: 100%;
+}
+.section4div1 h1 {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 65px;
+}
+.section4{
+    background-color: whitesmoke;
+    height: 600px;
+}
+.img {
+    width: 343.54px;
+    height: 213.23px;
+    padding: 10px;
+}
+.h3{
+    padding: 10px;
+}
+.p{
+    padding: 10px;
+}
+.mtop {
+    margin-top: 140px;
+}
+.col {
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 1px solid red;
+    /* border: 2px solid red; */
+    box-shadow: 0px 6px 19px 0px #ccbaba;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.maincol{
+    margin-left: 6%;
+}
+.footersection{
+
+}
+.overflow{
+    overflow: hidden;
+}
+.footerimage {
+    width: 906px;
+    border-radius: 30px;
+    /* padding: 100px 200px; */
+}
+.footdiv {
+    background-color: #f3eada;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
+}
+.footericon {
+    width: 30px;
+}
+.footerpa {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.footerp {
+    font-size: 20px;
+    font-family: cursive;
+}
+.backgroundwrite{
+
+}
+.ex{
+    background-image: url("../shapes/footer.png");
+}
