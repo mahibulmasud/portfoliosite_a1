@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .section1{
-    height: 50px;;
+    height: 50px;
 }
 section{
     height: 500px;
@@ -26,24 +26,24 @@ section{
 }
 .leftpart-section2 h1{
     font-size: 40px;
-    margin-left: 20%;
 }
 .ht{
     color:#FA7162;
 }
 .leftpart-section2 p {
     margin-bottom: 50px;
-    margin-left: 20%;
 }
 .link-button {
-    text-decoration: none;
-    background-color: #F96D61;
+    text-decoration:none;
+    background: linear-gradient(45deg, #f39385, #F8654F);
     color: white;
-    padding: 10px 40px;
+    padding: 20px 40px;
     border-radius: 5px;
-    margin: 82px;
-    margin-top: 20px;
-    margin-left: 20%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.link-button:hover{
+    background: linear-gradient(90deg, #f39385, #c5301a);
 }
 .rightpart-section2{
     float: left;
@@ -63,9 +63,7 @@ section{
     margin-left: 20%;
 }
 .leftpart-section3 p {
-    /* margin-bottom: 50px; */
     text-align: center;
-    /* margin-left: 25px; */
     padding: 14px 1px 60px 17px;
 }
 .leftpart-section3 h1 {
@@ -101,20 +99,14 @@ section{
     margin-top: 140px;
 }
 .col {
-    width: 30%;
-    float: left;
-    margin-right: 2%;
-    box-shadow: 1px solid red;
-    /* border: 2px solid red; */
-    box-shadow: 0px 6px 19px 0px #ccbaba;
-    border-radius: 5px;
-    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.maincol{
-    margin-left: 6%;
-}
-.footersection{
-
+.lrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    
 }
 .overflow{
     overflow: hidden;
@@ -142,9 +134,136 @@ section{
     font-size: 20px;
     font-family: cursive;
 }
-.backgroundwrite{
-
-}
 .ex{
     background-image: url("../shapes/footer.png");
+}
+.work{
+    background-image: url("shapes/footer.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+    margin: 100px;
+
+}
+.workmain{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workinquery{
+    width: 70%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workinquery p{
+    color: white;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+}
+.Letschat{
+    width: 30%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Letschat button{
+    padding: 20px 30px;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    background: linear-gradient(45deg, #f39385, #F8654F);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.Letschat button:hover{
+    background: linear-gradient(90deg, #f39385, #c5301a);
+}
+
+.aboutmaindiv{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+.aboutimg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+.aboutimg img{
+    width: 100%;
+}
+.abouttext{
+    width: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    margin-left: 200px;
+}
+.abouttext h1{
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.abouttext p{
+    width: 90%;
+    text-align: justify;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    /* grid-gap: 10px 10px; */
+    height: 500px;
+}
+.row > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    /* border: 1px solid burlywood; */
+}
+.image{
+    width:80%;
+    height: 500px;
+    object-fit:contain;
+}
+.btna{
+    margin-top: 80px;
+    align-self: center;
+}
+.abouth1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.abotsec{
+    padding: 25px;
+}
+p{
+    font-family: cursive;
+}
+a{
+    text-decoration:none;
+    color: black;
 }
